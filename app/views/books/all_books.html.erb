@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <td>Author</td>
+    <td>Publication Year</td>
+    <td>The type of the book</td>
+    <td>The store you can find it</td>
+  </tr>
+  <% @all_books.each do |book| %>
+    <tr>
+      <td><%= book.author %></td>
+      <td><%= book.publication_year %></td>
+      <td><%= book.book_kind%></td>
+      <td><%= book.store %></td>
+    </tr>
+  <% end %>
+
+</table>
