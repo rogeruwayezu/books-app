@@ -1,0 +1,18 @@
+<h1>New Product</h1>
+<%= form_tag "/books", method: :post do %>
+  <div class="form-group">
+  Author:<input type="text" name="author" class="form_control">
+  </div>
+  <div class="form-group">
+  Publication year: <input type="text" name="Publication_year" class="form_control">
+  </div>
+  <div class="form-group">
+  Book kind:<input type="text" name="Book_kind" class="form_control">
+  </div>
+  <div class="form-group">
+  Store:<input type="text" name="store" class="form_control">
+  </div>
+  <div class="form-group">
+  <input type="submit" name="Create Product" class="btn btn-default">
+  </div>
+<% end %>

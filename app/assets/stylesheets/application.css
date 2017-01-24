@@ -13,22 +13,3 @@
  *= require_tree .
  *= require_self
  */
-h1 {
-  color: blue;
-}
-table {
-    width: 100%;
-}
-
-td {
-    
-    height: 50px;
-
-}
-table, td, th {
-    border: 1px solid black;
-}
-tr {
-  color: solid black;
-  font-size: 20px;
-}
